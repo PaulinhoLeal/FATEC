@@ -1,0 +1,63 @@
+/*
+    Projeto: introdução ao desenvolvimento de software
+    E-mail: paulonagasumileal@gmail.com
+    Desenvolvedor: Paulo Henrique Leal
+    Versão: 1.0
+    Data: 22/03
+
+    ul>li.item-$*3>a
+*/
+
+/*Reset CSS*/
+*{
+    margin: 0;
+    padding:0;
+    box-sizing: border-box;
+}
+body{
+    background-color:rgb(238, 211, 211);
+    font-family: 'Rubik Gemstones','Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.logo{
+    margin: 25px 250px;
+}
+header{
+    background-color: rgb(14, 207, 207);
+}
+.container{
+    margin: 0 auto;
+    max-width: 1000px;
+}
+.banner{
+    background-color: rgb(128, 7, 7);
+}
+.sign-in{
+    background-color: rgb(253, 59, 0);
+}
+.services{
+   
+}
+h1.title{
+    text-align: center;
+}
+.team{
+    background-color: rgb(12, 28, 179);
+}
+.location{
+    background-color: rgb(223, 10, 127);
+}
+footer{
+    background-color: rgb(228, 83, 16);
+}
+.contat{
+    background-color: rgb(255, 238, 0);
+    display: flex;
+}
+.contat img{
+    align-items: center;
+    justify-content: space-around;
+    padding: 3px; 
+}
+
+
+
