@@ -1,6 +1,6 @@
 <?php
     //variaveis para conectar ao banco
-    $server_host = "localhost";
+    $server_host = "localhost:3307";
     $server_user = "root";
     $server_password = "";
     $database_name= "sge";
@@ -14,8 +14,8 @@
     //Função para conectar ao banco de dados(direta sem tratamento de erros)
     //A conexão ao banco de dados inicialmente nao utiliza orientação a objetos
     //Função utilizando as variaveis
-    $conexao = mysqli_connect($server_host,$server_user,$server_password,$database_name)
+    $conexao = mysqli_connect($server_host,$server_user,$server_password,$database_name);
     //Função utilizando as cosntantes 
-    $conexao = mysqli_connect(SERVER_HOST,SERVER_USER,SERVER_PASSWORD,DATABASE_NAME)
+    //$conexao = mysqli_connect(SERVER_HOST,SERVER_USER,SERVER_PASSWORD,DATABASE_NAME);
     //Função sem o uso de variaveis ou constantes
     
