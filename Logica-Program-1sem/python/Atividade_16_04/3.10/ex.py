@@ -1,5 +1,7 @@
 idade = int(input())
-if idade <=7:
+if idade < 5:
+    print('Sem classificação')
+elif idade <=7:
     print('infantil A')
 elif idade <=10:
     print('infantil B')
