@@ -1,4 +1,4 @@
-<?php include 'database.php';
+<?php include './database.php';
 
 $id = $_GET['id_aluno'];
 $nome = $_GET['nome_aluno'];
