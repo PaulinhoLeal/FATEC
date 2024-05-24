@@ -1,6 +1,6 @@
 <?php
     //variaveis para conectar ao banco
-    $server_host = "localhost:3307";
+    $server_host = "localhost:3306";
     $server_user = "root";
     $server_password = "";
     $database_name= "sge";
