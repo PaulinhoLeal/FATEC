@@ -12,6 +12,6 @@ VALUES ('$nome','$email','$tel')";
 //Função para cadastrar no banco de dados
 if(mysqli_query($conexao,$create)){
     //Função para redirecionar para a página indicada
-    header("Location: listar_alunos.php");
+    header("Location: listar_jogos.php");
 }
 

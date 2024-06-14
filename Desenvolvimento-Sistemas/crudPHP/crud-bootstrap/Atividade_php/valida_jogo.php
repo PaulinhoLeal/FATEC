@@ -10,11 +10,11 @@ $login = $_POST['login_sge'];
 $password = $_POST['password_sge'];
 
 if(empty($login)){
-    $_SESSION['mensagem'] = 'Preehca o cmapo logrin';
+    $_SESSION['mensagem'] = 'PREENCHA O CAMPO LOGIN';
     header('Location: form_login_sge.php');
 }
 elseif(empty($password)){
-    $_SESSION['mensagem'] = 'pRENencha o campo password';
+    $_SESSION['mensagem'] = 'PREENCHA O CAMPO PASSWORD';
     header('Location: form_login_sge.php');     
 }
 else{

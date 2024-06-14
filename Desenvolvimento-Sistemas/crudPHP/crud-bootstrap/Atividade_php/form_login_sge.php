@@ -1,18 +1,16 @@
 
-    <h2>Area do aluno</h2>
+    <h2>CADASTRE SUA CONTA</h2>
     <style >
         body{
-    
             background-size: cover;
             background-repeat: no-repeat;
-            
             color: black;
         }
         a{
             color:green;
         }
     </style>
-    <form action="valida_aluno.php" method='post'>
+    <form action="valida_jogo.php" method='post'>
         <label for="login_sge">Login</label>
         <input type="text" name= "login_sge" id="login_sge">
     
